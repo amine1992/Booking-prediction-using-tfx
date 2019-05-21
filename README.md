@@ -5,6 +5,7 @@
 * Only a sample of the used data is included.
 * The pipeline is mainly using the tensorflow extended libraries.
 * For each step of the pipeline, we'll try to provide a notebook and a production code. 
+
 ## Run tensorflow data validation step
 ```
 cd scripts/

@@ -12,12 +12,11 @@ from tensorflow.python.lib.io import file_io
 from tensorflow_metadata.proto.v0 import schema_pb2
 
 # Categorical features are assumed to each have a maximum value in the dataset.
-MAX_CATEGORICAL_FEATURE_VALUES = [24, 31, 12]
+MAX_CATEGORICAL_FEATURE_VALUES = [2, 53, 505, 1784, 105]
 
 CATEGORICAL_FEATURE_KEYS = [
     'yyear','week_of_year', 'city_id', 
-    'hotel_id','advertiser_id', 'last_renovation'
-]
+    'hotel_id','advertiser_id' ]
 
 DENSE_FLOAT_FEATURE_KEYS = ["clicks","cost", "top_pos","beat","meet","lose","impressions","stars","rating",\
           "total_images", "spa_hotel","convention_hotel","beach_front_hotel","luxury_hotel","city_hotel_centrally_located",\
