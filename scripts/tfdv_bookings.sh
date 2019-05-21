@@ -20,8 +20,8 @@ python tfdv_bookings.py \
 
 # Compute stats on the eval file and validate against the training schema.
 python tfdv_bookings.py \
-  --input $DATA_DIR/test/test.csv \
-  --stats_path $OUTPUT_DIR/test_stats.tfrecord \
+  --input $DATA_DIR/eval/eval.csv \
+  --stats_path $OUTPUT_DIR/eval_stats.tfrecord \
   --schema_path $SCHEMA_PATH \
   --anomalies_path $OUTPUT_DIR/anomalies.pbtxt \
   --validate_stats \
